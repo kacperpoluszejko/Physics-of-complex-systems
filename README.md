@@ -11,12 +11,10 @@ Każdy projekt zawiera:
 ---
 
 ## 📌 Tematy projektów 
-
-0. Rozkład Bernoulliego, estymacja momentów rozkładu
-1. Generator o zadanym rozkładzie 1D
-2. Generatory liczb pseudolosowych - rozkłady skorelowane w 2D
-3. Proste całkownie z szacowaniem wariancji
-4. Całkowanie metodą warstwową - redukcja wariancji
-5. Symulacja dyfuzji i absorpcji w układzie zakmniętym]
-6. 
-
+0. Wprowadzenie
+1. Zjawiska emergentne -- automaty komórkowe
+2. Zjawiska emergentne -- modelowanie dynamiki populacji
+3. Zjawiska emergentne -- modelowanie dynamiki epidemii
+4. Jednowymiarowy model Isinga
+5. Dwuwymiarowy model Isinga
+6. Perkolacja węzłów na sieci kwadratowej
