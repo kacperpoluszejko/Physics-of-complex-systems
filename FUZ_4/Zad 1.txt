@@ -1,0 +1,9 @@
+Zad 1:
+Zmiana energii dE może mieć tylko 3 wartości: -4, 0 , 4.
+
+1 Przypadek: Jeśli po obu stronach mamy różne spiny to dE = 0, więc P = 100% (niezależnie od T)
+2 Przypadek: Jeśli mamy te same spiny i środkowy zmieniamy na inny to dE = 4, więc P zależy od 1/T
+3 Przypadek: Jeśli mamy te same siny i środkowy zmieniamy  z różnego na ten sam to P = 100% (niezależnie od T)
+
+W przypadku drugim obliczamy exp(-(-4)*(1/T)) (w kodzie tablica Ptab). 
+Zatem dla przypadku 2 dla 1/T = (0.5, 1.5, 2.5, 4.0) mamy P = (0.135335, 0.00247875, 4.53999e-05, 1.12535e-07)

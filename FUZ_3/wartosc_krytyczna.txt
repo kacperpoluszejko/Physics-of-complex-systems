@@ -1,0 +1,3 @@
+Z wykresu zad3_R możemy odczytać wartość krytyczną alpha_c = 0.09 (lambda_c = 0.05625). Dla tej wartości epidemia się rozwija, jednak wygasa na tyle "szybko", że nie wszyscy zostają zarażeni. Warto zwrócić uwagę, że jest to jedynie przybliżona wartość, ponieważ symulacja
+została wykonano tylko raz. Najprawdopodobniej za drugim razem mimo tych samych parametrów początkowych wartość krytyczna okazałaby się
+trochę inna. 
