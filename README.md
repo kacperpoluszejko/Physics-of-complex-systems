@@ -12,7 +12,7 @@ Każdy projekt zawiera:
 
 ## 📌 Tematy projektów 
 
-0.. Rozkład Bernoulliego, estymacja momentów rozkładu
+0. Rozkład Bernoulliego, estymacja momentów rozkładu
 1. Generator o zadanym rozkładzie 1D
 2. Generatory liczb pseudolosowych - rozkłady skorelowane w 2D
 3. Proste całkownie z szacowaniem wariancji
