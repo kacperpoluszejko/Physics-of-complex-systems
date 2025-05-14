@@ -1,0 +1,6 @@
+*.tex linguist-documentation
+*.bib linguist-documentation
+*.pdf linguist-documentation
+
+*.cpp linguist-language=C++
+*.h linguist-language=C++
