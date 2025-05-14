@@ -18,3 +18,5 @@ Każdy projekt zawiera:
 4. Jednowymiarowy model Isinga
 5. Dwuwymiarowy model Isinga
 6. Perkolacja węzłów na sieci kwadratowej
+7. Samoorganizowany stan krytyczny
+8. Grafy losowe - sieci Erdősa-Rényi’ego
