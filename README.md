@@ -20,3 +20,5 @@ Każdy projekt zawiera:
 6. Perkolacja węzłów na sieci kwadratowej
 7. Samoorganizowany stan krytyczny
 8. Grafy losowe - sieci Erdősa-Rényi’ego
+9. Grafy losowe - model Barabási’ego-Albert'a
+10. Model Kuramoto
