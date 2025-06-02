@@ -22,3 +22,4 @@ Każdy projekt zawiera:
 8. Grafy losowe - sieci Erdősa-Rényi’ego
 9. Grafy losowe - model Barabási’ego-Albert'a
 10. Model Kuramoto
+11. Błądzenie losowe
