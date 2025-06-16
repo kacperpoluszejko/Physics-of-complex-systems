@@ -23,3 +23,5 @@ Każdy projekt zawiera:
 9. Grafy losowe - model Barabási’ego-Albert'a
 10. Model Kuramoto
 11. Błądzenie losowe
+12. Algorytm Page Rank
+13. Szkło spinowe
