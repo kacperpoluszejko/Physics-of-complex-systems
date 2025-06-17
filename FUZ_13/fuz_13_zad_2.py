@@ -23,7 +23,7 @@ def is_stable(config, J):
     return True
 
 def generate_all_configs(N):
-    return np.array(list(product([-1, 1], repeat=N)), dtype=np.int8)
+    return np.array(list(product([-1, 1], repeat=N)))
 
 @njit
 def count_stable_configs(configs, J):
@@ -35,19 +35,17 @@ def count_stable_configs(configs, J):
 
 def run_simulation(N, trials=100):
     configs = generate_all_configs(N)
-    stable_counts = []
+    counts = []
     for _ in range(trials):
-        J = np.random.normal(0.0, 1.0, size=N).astype(np.float64)
+        J = np.random.normal(0.0, 1.0, size=N)
         count = count_stable_configs(configs, J)
-        stable_counts.append(count)
-    avg_stable = np.mean(stable_counts)
+        counts.append(count)
+    avg_stable = np.mean(counts)
     expected = 2 ** (N / 3)
     return avg_stable, expected
 
-
-# Uruchomienie dla N = 9, 12, 15
 for N in [9, 12, 15]:
     avg, expected = run_simulation(N, trials=100)
     print(f"N = {N}")
-    print(f"  Średnia liczba stabilnych stanów: {avg:.2f}")
-    print(f"  Wartość teoretyczna (2^(N/3))     : {expected:.2f}\n")
+    print(f"  Średnia liczba stabilnych stanów: {avg}")
+    print(f"  Wartość teoretyczna (2^(N/3))     : {expected}\n")
