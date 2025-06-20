@@ -1,6 +1,6 @@
 # 💻 Fizyka układów złożonych
 
-To repozytorium zawiera zestaw programów i analiz związanych różnego rodzaju symulacjami fizycznymi. Większość z nich dotyczy badań nad układami, które wykazują emergentne zachowania - np. automaty komórkowe, systemy społeczne, czy model Isinga. Udostępnione tutaj skrupty zrealizowano w ramach studiów magisterskich na kierunku **Fizyka Techniczna** (specjalizacja: **Fizyka Komputerowa**).
+To repozytorium zawiera zestaw programów i analiz związanych różnego rodzaju symulacjami fizycznymi. Większość z nich dotyczy badań nad układami, które wykazują emergentne zachowania - np. automaty komórkowe, systemy społeczne, czy model Isinga. Udostępnione tutaj skrupty zrealizowano w ramach studiów magisterskich na kierunku **Fizyka Techniczna** (specjalizacja: **Fizyka Komputerowa**)
 
 Każdy projekt zawiera:
 - Kod źródłowy symulacji
