@@ -25,3 +25,4 @@ Każdy projekt zawiera:
 11. Błądzenie losowe
 12. Algorytm Page Rank
 13. Szkło spinowe
+14. Sieci Hopfielda
