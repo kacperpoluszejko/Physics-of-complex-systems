@@ -28,6 +28,12 @@ def print_pattern(vec, size=5):
         row = vec[i*size:(i+1)*size]
         print(list(int(v) for v in row))
 
+def is_correct(tab1, tab2):
+    if np.array_equal(tab1, tab2):
+        print("Wzorzec poprawnie odtworzony \n")
+    else:
+        print("Wzorzec niepoprawnie odtworzony \n")
+
 T = to_vector([
     [-1, -1, -1, -1, -1],
     [ 1,  1, -1,  1,  1],
@@ -50,12 +56,51 @@ A = to_vector([
     [-1, 1, 1, 1,-1]
 ]) 
 
-W = calc_W([T, H, A])
+E = to_vector([
+    [-1,-1,-1,-1,-1],
+    [-1, 1, 1, 1, 1],
+    [-1,-1,-1,-1, 1],
+    [-1, 1, 1, 1, 1],
+    [-1,-1,-1,-1,-1]
+]) 
 
-T_2 = T.copy()
-T_2[3] *= -1  
-T_rec = recover(W, T_2)
+
+T2 = to_vector([
+    [-1, -1, -1,  1, -1],
+    [ 1,  1, -1,  1,  1],
+    [ 1,  1,  1,  1,  1],
+    [-1,  1,  1,  1,  1],
+    [ 1,  1, -1,  1,  1]
+])
+H2 = to_vector([
+    [-1, 1, 1, 1, -1],
+    [-1, 1, 1, 1, -1],
+    [-1, 1,-1,-1,  1],
+    [-1, 1, 1, 1,  1],
+    [-1, 1, 1, 1, -1]
+]) 
+A2 = to_vector([
+    [ 1, 1, 1, 1, 1],
+    [ 1,-1, 1,-1, 1],
+    [ 1,-1, 1,-1, 1],
+    [ 1, 1, 1, 1, 1],
+    [-1, 1, 1, 1,-1]
+]) 
+
+W = calc_W([T, H, A, E])
+T_rec = recover(W, T2)
+H_rec = recover(W, H2)
+A_rec = recover(W, A2)
 
 
 print("Odzyskany wzorzec T:")
 print_pattern(T_rec)
+is_correct(T, T_rec)
+
+print("Odzyskany wzorzec H:")
+print_pattern(H_rec)
+is_correct(H, H_rec)
+
+print("Odzyskany wzorzec A:")
+print_pattern(A_rec)
+is_correct(A, A_rec)

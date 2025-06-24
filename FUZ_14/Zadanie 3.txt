@@ -1,0 +1,5 @@
+Zadanie 3
+
+Wzorzec H po dodaniu E do zbioru uczącego nie jest poprawnie odtwarzany. Sieć osiągnęła swoją maksymalną pojemność i przy 25 neuronach dla 4 wzorców może popełniać błędy. Wzorce przestają być liniowo niezależne. Aby uniknąć błędów należałoby zwiększyć liczbę neuronów.
+
+Maksymalna liczba wzorów wynosi około: p = N*0.138. W naszym przypadku: p = 3,45 < 4.
