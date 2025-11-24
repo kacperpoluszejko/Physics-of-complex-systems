@@ -1,27 +1,31 @@
-# 💻 Fizyka układów złożonych
+# 💻 Physics of Complex Systems
 
-To repozytorium zawiera zestaw programów i analiz związanych różnego rodzaju symulacjami fizycznymi. Większość z nich dotyczy badań nad układami, które wykazują emergentne zachowania - np. automaty komórkowe, systemy społeczne, czy model Isinga. Udostępnione tutaj skrupty zrealizowano w ramach studiów magisterskich na kierunku **Fizyka Techniczna** (specjalizacja: **Fizyka Komputerowa**).
+This repository contains a collection of programs and analyses related to various types of physical simulations.  
+Most of them focus on systems that exhibit **emergent behavior** — such as cellular automata, social systems, or the Ising model.  
+The scripts provided here were developed as part of the Master's studies in **Technical Physics** (specialization: **Computational Physics**).
 
-Każdy projekt zawiera:
-- Kod źródłowy symulacji
-- Skrypty do generowania wykresów
-- Gotowe rysunki / wizualizacje
-- Instrukcję do ćwiczenia
+Each project includes:
+- Source code of the simulation  
+- Scripts for generating plots  
+- Ready-made figures / visualizations  
+- Exercise instructions  
 
 ---
 
-## 📌 Tematy projektów 
-0. Wprowadzenie
-1. Zjawiska emergentne -- automaty komórkowe (gra w życie)
-2. Zjawiska emergentne -- modelowanie dynamiki populacji
-3. Zjawiska emergentne -- modelowanie dynamiki epidemii
-4. Jednowymiarowy model Isinga
-5. Dwuwymiarowy model Isinga
-6. Perkolacja węzłów na sieci kwadratowej
-7. Samoorganizowany stan krytyczny
-8. Grafy losowe - sieci Erdősa-Rényi’ego
-9. Grafy losowe - model Barabási’ego-Albert'a
-10. Model Kuramoto
-11. Błądzenie losowe
-12. Algorytm Page Rank
-13. Szkło spinowe
+## 📌 Project Topics
+
+0. Introduction  
+1. Emergent phenomena — cellular automata (Game of Life)  
+2. Emergent phenomena — population dynamics modeling  
+3. Emergent phenomena — epidemic dynamics modeling  
+4. One-dimensional Ising model  
+5. Two-dimensional Ising model  
+6. Site percolation on a square lattice  
+7. Self-organized criticality  
+8. Random graphs — Erdős–Rényi networks  
+9. Random graphs — Barabási–Albert model  
+10. Kuramoto model  
+11. Random walk  
+12. PageRank algorithm  
+13. Spin glass  
+14. Hopfield networks  
