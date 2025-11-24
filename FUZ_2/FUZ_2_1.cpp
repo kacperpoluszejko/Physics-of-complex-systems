@@ -10,7 +10,11 @@ double r=2;
 int t=50;
 double xn, xn1;
 
-ofstream plik1("C:\\Users\\kacpe\\OneDrive\\Pulpit\\C_plus\\FUZ\\fuz2_1.txt");
+ofstream plik1("C:\\Users\\kacpe\\OneDrive\\Pulpit\\Programming\\FUZ\\FUZ_2\\fuz2_1.txt");
+if(!plik1.is_open()) {
+    cout << "Nie mozna otworzyc pliku!\n";
+    return 1;
+}
 
 double x0[9] = {0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9};
 
