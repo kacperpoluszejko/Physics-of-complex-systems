@@ -2,7 +2,7 @@
 
 This repository contains a collection of programs and analyses related to various types of physical simulations.  
 Most of them focus on systems that exhibit **emergent behavior** — such as cellular automata, social systems, or the Ising model.  
-The scripts provided here were developed as part of the Master's studies in **Technical Physics** (specialization: **Computational Physics**).
+The scripts provided here were developed as part of the Master's studies in **Technical Physics** (specialization: **Computational Physics**)
 
 Each project includes:
 - Source code of the simulation  
